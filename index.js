@@ -19,23 +19,23 @@ function increaseHomeScoreThree() {
   homeStoreEl.textContent = homeScore;
 }
 
-let guestScoreBtnOne = document.getElementById("guest-score-btn-1");
-let guestScoreBtnTwo = document.getElementById("guest-score-btn-2");
-let guestScoreBtnThree = document.getElementById("guest-score-btn-3");
-let guestStoreEl = document.getElementById("guest-score");
-let guestScore = 0;
+let awayScoreBtnOne = document.getElementById("away-score-btn-1");
+let awayScoreBtnTwo = document.getElementById("away-score-btn-2");
+let awayScoreBtnThree = document.getElementById("away-score-btn-3");
+let awayStoreEl = document.getElementById("away-score");
+let awayScore = 0;
 
-function increaseGuestScoreOne() {
-  guestScore += 1;
-  guestStoreEl.textContent = guestScore;
+function increaseAwayScoreOne() {
+  awayScore += 1;
+  awayStoreEl.textContent = awayScore;
 }
 
-function increaseGuestScoreTwo() {
-  guestScore += 2;
-  guestStoreEl.textContent = guestScore;
+function increaseAwayScoreTwo() {
+  awayScore += 2;
+  awayStoreEl.textContent = awayScore;
 }
 
-function increaseGuestScoreThree() {
-  guestScore += 3;
-  guestStoreEl.textContent = guestScore;
+function increaseAwayScoreThree() {
+  awayScore += 3;
+  awayStoreEl.textContent = awayScore;
 }
